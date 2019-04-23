@@ -49,7 +49,7 @@ def run(songs)
   answer = ""
   answer = gets.chomp
 
-  until answer == "exit"
+  #until answer == "exit"
     case answer
     when "list"
       list(songs)
@@ -61,5 +61,5 @@ def run(songs)
       exit_jukebox
     else "Invalid input, please type \"help\" for valid commands."
     end
-  end
+  #end
 end
